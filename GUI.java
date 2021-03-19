@@ -39,7 +39,7 @@ public class GUI extends JFrame {
     public static void main(String[] args) {
         showGUI();
     }
-
+    
     public void addButton(final Container pane) {
         final JPanel panel = new JPanel();
         panel.setLayout(layout);
@@ -66,6 +66,7 @@ public class GUI extends JFrame {
         temperatureSensorButton.addActionListener(temp_listener);
 
     }
+    // add the ActionListener to the button
     ActionListener temp_listener = new ActionListener() {
         @Override
         public void actionPerformed(ActionEvent e) {
@@ -82,6 +83,7 @@ public class GUI extends JFrame {
             }
         }
     };
+    // add the ActionListener to the button
     ActionListener entry_listener = new ActionListener() {
         @Override
         public void actionPerformed(ActionEvent e) {
@@ -98,7 +100,7 @@ public class GUI extends JFrame {
             }
         }
     };
-
+    // add the ActionListener to the button
     ActionListener time_listener = new ActionListener() {
         @Override
         public void actionPerformed(ActionEvent e) {
@@ -115,7 +117,7 @@ public class GUI extends JFrame {
             }
         }
     };
-
+    // add the ActionListener to the button
     ActionListener flood_listener = new ActionListener() {
         @Override
         public void actionPerformed(ActionEvent e) {
@@ -132,7 +134,7 @@ public class GUI extends JFrame {
             }
         }
     };
-
+    // add the ActionListener to the button
     ActionListener glass_listener = new ActionListener() {
         @Override
         public void actionPerformed(ActionEvent e) {
@@ -150,7 +152,7 @@ public class GUI extends JFrame {
             }
         }
     };
-
+    // add the ActionListener to the button
     ActionListener smoke_listener = new ActionListener() {
         @Override
         public void actionPerformed(ActionEvent e) {
@@ -167,7 +169,7 @@ public class GUI extends JFrame {
             }
         }
     };
-
+    // add the ActionListener to the button
     ActionListener motion_listener = new ActionListener() {
         @Override
         public void actionPerformed(ActionEvent e) {
@@ -184,7 +186,7 @@ public class GUI extends JFrame {
             }
         }
     };
-
+    // add the ActionListener to the button
     ActionListener carbon_listener = new ActionListener() {
         @Override
         public void actionPerformed(ActionEvent e) {
